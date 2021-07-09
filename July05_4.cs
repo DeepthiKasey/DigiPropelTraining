@@ -6,6 +6,8 @@ namespace July05_4
     {
         static void Main()
         {
+             //Program to create three classes plus another class to test the logic in your code. 
+            //The main classes of the program are the following classes:
 
             Person person = new Person();
             person.Greet();
@@ -27,7 +29,9 @@ namespace July05_4
 
         }
     }
-      public class Person
+    
+    
+      public class Person  // Creating Person Class 
         {
         protected int age;
 
@@ -43,9 +47,11 @@ namespace July05_4
         }
         }
 
-    public class Student:Person
+    public class Student:Person  // student Class Inherit from Person Class
+          
+         // Creating method Study and ShowAge in Student Class
     {
-        public void Study()
+        public void Study()       
         {
             Console.WriteLine("Im studying");
 
@@ -56,8 +62,11 @@ namespace July05_4
 
         }
     }
-    public class Teacher: Student
+    public class Teacher: Student // Teacher Class Inherit From Student Class
     {
+    
+    //Creating methos TeacherIntro And Explain in Class Teacher
+    
         public void TeacherIntro()
         {
             Console.WriteLine("Im a Teacher");
