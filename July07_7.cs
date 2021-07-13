@@ -35,13 +35,13 @@ namespace July07_7
         public static void Main() //main method intracting with class PhotoBook
         {
             PhotoBook FirstBook = new PhotoBook();
-            Console.WriteLine("  Number of pages in FirstBook :" + Book1.GetNumberPages());
+            Console.WriteLine("  Number of pages in FirstBook :" + FirstBook.GetNumberPages());
 
             PhotoBook SecondBook = new PhotoBook(24);
-            Console.WriteLine("  Number of pages in SecondBook :" + Book2.GetNumberPages());
+            Console.WriteLine("  Number of pages in SecondBook :" + SecondBook.GetNumberPages());
 
             BigPhotoBook ThirdBook = new BigPhotoBook();
-            Console.WriteLine(" ThirdBook number of pages :" + Book3.GetNumberPages());
+            Console.WriteLine(" ThirdBook number of pages :" + ThirdBook.GetNumberPages());
         }
     }
 }
