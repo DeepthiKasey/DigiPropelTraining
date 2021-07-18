@@ -2,6 +2,10 @@
 
 namespace July07_4
 {
+    //Program to Create a class to store details of student like rollno, name, course joined and fee paid so far. 
+    //Assume courses are C# and ASP.NET with course fees being 2000 and 3000.
+    //Provide the a constructor to take rollno, name and course.
+   
     public class Student
     {
         private int rollno;
