@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="app.js">
+	</script>
+</head>
+<body>
+    <div class="container">
+	
+    <h1>Tip Caluculator</h1>
+    <div class="wrapper">
+     
+	<p> How Much was your Bill  </p>
+      Rs: <input type="text" id="amount"
+      placeholder="Amount to be paid"> 
+
+      		
+    <p> How was your Service ?</p>
+        <select id="services">
+        <option selected disabled hidden>
+            Choose an Option
+        </option>
+        <option value="1.">Outstanding - 1</option>
+        <option value="1.">Good – 0.5</option>
+        <option value="1.">Bad – 0.01</option>
+        </select>  
+
+  
+    <p>How many people are sharing the Bill </p>
+
+    <input type="text" id="persons"
+				placeholder="Number of people sharing the bill">
+			<button id="calculate">Calculate</button>
+        </div>
+
+		<div class="tip">
+		
+    <p>Tip Amount</p>
+
+			Rs:<span id="total">0</span>
+			<span id="each">each</span>
+		</div>
+	</div>
+
+
+</body>
