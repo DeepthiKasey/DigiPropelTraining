@@ -5,7 +5,11 @@ namespace July07_4
     //Program to Create a class to store details of student like rollno, name, course joined and fee paid so far. 
     //Assume courses are C# and ASP.NET with course fees being 2000 and 3000.
     //Provide the a constructor to take rollno, name and course.
-   
+    //Add a static member to store Service Tax, which is set to 12.3%. Also allow a property through which we can set and get service tax.
+    //Modify TotalFee and DueAmount properties to consider service tax.
+
+  
+ 
     public class Student
     {
         private int rollno;
