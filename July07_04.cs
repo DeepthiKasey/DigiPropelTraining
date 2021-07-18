@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-public class July07_4
+public class Student
 {
     private int rollno;
     private string name;
